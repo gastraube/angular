@@ -1,4 +1,4 @@
-class MensagemView extends View {
+class MensagemView extends View<string> {
 
     template(model: string): string {
 
